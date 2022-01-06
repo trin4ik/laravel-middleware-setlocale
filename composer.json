@@ -1,0 +1,33 @@
+{
+  "name": "trin4ik/laravel-middleware-setlocale",
+  "description": "Laravel \"SetLocale\" middleware from user data, http headers, post data etc",
+  "license": "MIT",
+  "keywords": [
+    "trin4ik",
+    "laravel-middleware-setlocale"
+  ],
+  "homepage": "https://github.com/trin4ik/laravel-middleware-setlocale",
+  "authors": [
+    {
+      "name": "trin4ik",
+      "email": "trin4ik@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "laravel/framework": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Trin4ik\\LaravelMiddlewareSetLocale\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Trin4ik\\LaravelMiddlewareSetLocale\\MiddlewareSetLocaleServiceProvider"
+      ]
+    }
+  }
+}
